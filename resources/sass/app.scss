@@ -1,0 +1,31 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {      
+    @apply bg-blue-blue;
+    @apply text-white;
+    @apply rounded-lg;
+    @apply text-sm;
+    @apply py-2;
+    @apply px-5;
+    box-shadow: 0 2px 7px 0 #b0eaff;
+  }
+
+.card {
+    @apply bg-white;
+    @apply p-5;
+    @apply rounded-lg;
+    @apply shadow;
+}
+
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
